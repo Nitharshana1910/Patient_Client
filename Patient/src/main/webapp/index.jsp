@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <link rel="stylesheet" href="Views/styles.css">
+<style>
+div.scrollmenu {
+  background-color: #e6f5ff;
+  overflow: auto;
+  height:800px;
+}
+</style>
 </head>
 <body>
     <div class="container">
@@ -44,11 +51,11 @@
 
 
 	
-
+<div class="scrollmenu">
 	<div class="row">
 			<ul style="list-style: none;" id="apps" class="row" ></ul>
 	</div>
-
+</div>
    </div>
 	
 </div>

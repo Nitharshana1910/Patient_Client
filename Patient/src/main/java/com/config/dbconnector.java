@@ -17,7 +17,7 @@ public class dbconnector {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Connection Top");
 			//con =  (Connection) DriverManager.getConnection(url,username,password);
-			con = DriverManager.getConnection("jdbc:mysql://localhost/helth_care?user="+username+"&password="+password);
+			con = DriverManager.getConnection("jdbc:mysql://localhost/PAF?user="+username+"&password="+password);
 			System.out.println("Connection Done");
 			if (con != null) {
                 System.out.println(" ");
